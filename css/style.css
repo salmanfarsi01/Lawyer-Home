@@ -1,0 +1,564 @@
+*{
+
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6{
+
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+
+
+
+}
+/* header-section start */
+
+.header-section{
+	width:100%;
+	padding: 15px 0px;
+	background: #fff;
+}
+.header-section .navbar-nav .nav-item .nav-link{
+
+	font-size: 14px;
+	font-family:'Montserrat', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin: 0px 0px 0px 20px;
+    color: #1f4f87;
+    transition: 1s;
+}
+
+.header-section .navbar-nav .nav-item .nav-link:hover, .header-section .navbar-nav .nav-item .nav-link:focus{
+	 color: #f2622c;
+}
+
+/* banner-section start */
+
+.banner-section{
+	width: 100%;
+	padding: 160px 0px 65px;
+	background: url("../images/slider.png") center top no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+
+.banner-section h1{
+    
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+
+}
+
+.banner-section .arrow{
+  
+    width: 100%;
+    padding:160px 0px 0px;
+}
+
+.banner-section .arrow .fa{
+	font-size: 36px;
+	color: #fff; 
+}
+/* who-we start */
+
+.who-we{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.who-we .title{
+	width: 100%;
+	padding: 0px 0px 10px;
+}
+
+.who-we .title h2{
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #1f4f87;
+	letter-spacing: 2px;
+}
+
+.who-we p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #b0b0b1;
+}
+
+/* we do start */
+
+.we-do{
+	width: 100%;
+	padding: 120px 0px;
+	background: url(../images/about.png);
+}
+
+.we-do .title{
+	width: 100%;
+	padding: 0px 0px 130px;
+	text-align: center;
+}
+
+.we-do .title h2{
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #1f4f87;
+	letter-spacing: 2px;
+}
+.inner-image{
+	width: 100%;
+	position: relative;
+}
+
+.inner-image .img-fluid{
+	width: 100%;
+}
+
+
+.inner-wedo{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 40%;
+	left: 0px;
+	text-align: center;
+}
+
+.inner-wedo h4{
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.inner-wedo .long-arrow{
+	position: absolute;
+	left: 45%;
+	top: 40%;
+}
+
+.our-attorny{
+	width: 100%;
+	padding: 110px 0px;
+	background: url("../images/at.png") center top no-repeat;
+	background-size: cover;
+}
+
+.our-attorny .title{
+	width: 100%;
+	padding: 0px 0px 20px;
+	
+}
+
+.our-attorny .title h2{
+	font-size: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+.our-attorny .at-text{
+	font-size: 14px;
+	line-height: 24px;
+	color: #7c84b8;
+}
+
+.our-attorny .btn-link {
+
+	text-decoration: none;
+	padding: 0px;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #f2622c;
+	font-weight: 700;
+	letter-spacing: 2px;
+	transition: 1s;
+}
+
+.our-attorny .btn-link:hover, .our-attorny .btn-link:focus{
+    
+    color: #fff !important;	
+}
+
+.our-attorny .inner-image{
+	width: 100%;
+	position: relative;
+	margin: 0px 0px 23px;
+}
+
+.our-attorny .inner-image .img-fluid{
+	width: 100%;
+}
+
+
+.our-attorny .inner-attorny{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 75%;
+	left: 10px;
+}
+
+.our-attorny .inner-attorny h4{
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/*language section css code start here*/
+.language{
+	width: 100%;
+	padding: 80px 0px;
+}
+.language .title{
+	width: 100%;
+	padding: 80px 0px 60px;
+	text-align: center;
+}
+.language .title h2{
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #28377e;
+}
+.inner-language{
+	width: 100%;
+	padding: 80px 0px;
+}
+.inner-language h4{
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #28377e;
+}
+.inner-language p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+    color: #cdcccb;
+}
+.inner-language .btn-link{
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	padding: 0px;
+	color: #f2622c;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: left;
+}
+.inner-language .btn-link:hover, .inner-language .btn-link:focus{
+	color: #28377e !important;
+}
+/*contact section css code start here*/
+.contact-section{
+	width: 100%;
+	padding: 80px;
+	background: #28377e;
+}
+.contact-section .title{
+	width: 100%;
+	text-align: center
+}
+.contact-section .title h2{
+    font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	color: #fff;
+}
+.submit{
+	text-align: center;
+}
+.contact-section .contact-form{
+	width: 100%;
+	padding: 80px 0px 60px;
+} 
+.contact-section .contact-form .form-control{
+	padding: 14px;
+	border-radius: 2px;
+	text-transform: uppercase;
+	background: transparent;
+	color: #fff;
+	border: 1px solid #4759a7;
+	margin: 0px 0px 30px;
+}
+.contact-section .contact-form .form-control:focus{
+	background: transparent;
+    border: 1px solid #4759a7;
+    box-shadow: 0 0 0 0 #4759a7;
+}
+
+.submit .btn-primary{
+    padding: 15px 95px;
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 700;
+	border-radius: 2px;
+	letter-spacing: 1px;
+	color: #fff;
+	background: #f2622c;
+	border: 1px solid #f2622c;
+	text-transform: uppercase;
+	text-transform: 1s;
+}
+.contact-section .submit .btn-primary:hover, .reserve .submit .btn-primary:focus{
+    color: #4759a7;
+	background: transparent;
+	border: 1px solid #4759a7;
+}
+.footer-section{
+	width: 100%;
+	padding: 60px 0px;
+	background: #0c1234;
+}
+.inner-footer{
+	text-align: center;
+}
+.footer-section a{
+	font-size: 20px;
+	text-align: center;
+	font-weight: 600;
+	text-decoration: none;
+	color: #4a5283;
+	letter-spacing: 2px;
+}
+.footer-section a:hover{
+	color: #4a5283;
+}
+.icon{
+	text-align: center;
+
+}
+.icon .fa{
+	font-size: 25px;
+	color: #b1b7dd;
+	margin: 0px 30px 0px 20px;
+	transition: 1s;
+}
+.icon .fa:hover, .icon .fa:focus{
+	color: #fff;
+}
+/*responsive css code start here*/
+@media (min-width: 279px) and (max-width: 319px){
+        /*code start*/
+         .banner{
+	    	padding: 120px 0px 80px;
+	    }
+	     .banner h1{
+	     	font-size: 22px;
+	     	line-height: 32px;
+	     }
+	     .who-we {
+	     	padding: 50px 0px 0px;
+	     }
+	     .who-we .title h2{
+	     	font-size: 30px;
+	     	line-height: 40px;
+	     }
+	     .we-do{
+	     	padding: 50px 0px;
+	     }
+        .we-do .title h2{
+        	font-size: 20px;
+        	line-height: 30px;
+        }
+        .inner-image .img-fluid {
+		    width: 100%;
+		    margin-bottom: 20px
+		}
+		.attorney .title{
+			padding: 40px 0px 20px;
+		}
+		.language .title {
+			padding: 40px 0px 20px;
+		}
+		.language .title h2{
+			font-size: 22px;
+		}
+		.inner-language{
+			padding: 40px 0px;
+		}
+        .contact-section .title h2 {
+        font-size: 16px;
+       }
+        .contact-section .contact-form {
+		    width: 100%;
+		    padding: 40px 0px;
+		}       
+        .contact-section .form-control{
+            font-size: 10px;
+        }
+        .contact-form .submit{
+            text-align: center;
+        }
+        .submit .btn-primary {
+            padding: 5px 15px;
+            font-size: 12px;
+          
+        }
+        .footer-section {
+            padding: 30px 0px 20px;
+        }
+         .footer-section a {
+            font-size: 12px;
+        }
+
+        .icon{
+        	padding: 10px 0px;
+        }
+        .footer-section .fa{
+                font-size: 15px;
+                margin: 0px 5px 0px 5px;
+        }
+       /*code end*/
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+	    /*code start*/
+	     .banner{
+	    	padding: 120px 0px 80px;
+	    }
+	     .banner h1{
+	     	font-size: 22px;
+	     	line-height: 32px;
+	     }
+	     .who-we {
+	     	padding: 50px 0px 0px;
+	     }
+	     .who-we .title h2{
+	     	font-size: 30px;
+	     	line-height: 40px;
+	     }
+	     .we-do{
+	     	padding: 50px 0px;
+	     }
+        .we-do .title h2{
+        	font-size: 30px;
+        	line-height: 40px;
+        }
+        .inner-image .img-fluid {
+		    width: 100%;
+		    margin-bottom: 20px
+		}
+		.attorney .title{
+			padding: 40px 0px 20px;
+		}
+		.language .title{
+			padding: 40px 0px 20px;
+		}
+		.inner-language{
+			padding: 40px 0px;
+		}
+        .contact-section .title h2 {
+        font-size: 16px;
+       }
+        .contact-section .contact-form {
+		    width: 100%;
+		    padding: 40px 0px;
+		}       
+        .contact-section .form-control{
+            font-size: 14px;
+        }
+        
+        .contact-section .submit .btn-primary {
+            padding: 8px 25px;
+            font-size: 10px;
+            line-height: 20px;
+            font-weight: 600;
+        }
+         .footer-section {
+            padding: 40px 0px 30px;
+        }
+         .footer-section a {
+            font-size: 14px;
+        }
+        .icon{
+        	padding: 12px 0px;
+        }
+        .footer-section .fa{
+                font-size: 16px;
+                margin: 0px 7px 0px 7px;
+        }
+           /*code end*/
+
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+	/*code start*/
+	    .banner{
+		    	padding: 120px 0px 80px;
+		     }
+		     .banner h1{
+		     	font-size: 22px;
+		     	line-height: 32px;
+		     }
+		     .who-we {
+		     	padding: 50px 0px 0px;
+		     }
+		     .who-we .title h2{
+		     	font-size: 30px;
+		     	line-height: 40px;
+		     }
+		     .we-do{
+		     	padding: 50px 0px;
+		     }
+	        .we-do .title h2{
+	        	font-size: 30px;
+	        	line-height: 40px;
+	        }
+	        .inner-image .img-fluid {
+			    width: 100%;
+			    margin-bottom: 20px
+			}
+			.attorney .title{
+				padding: 40px 0px 20px;
+			}
+			.language .title{
+				padding: 40px 0px 20px;
+			}
+			.inner-language{
+				padding: 40px 0px;
+			}
+	        .contact-section .submit .btn-primary {
+	            padding: 10px 30px;
+	            font-size: 12px;
+	            line-height: 22px;
+	            font-weight: 600;
+	        }
+	         .footer-section {
+	            padding: 40px 0px;
+	        }
+	        .icon{
+	        	padding: 20px 0px 0px;
+	        }
+           .footer-section .fa{
+	                font-size: 20px;
+	                margin: 0px 8px 0px 8px;
+	        }
+        
+
